@@ -47,7 +47,7 @@ export const OrangeBar = styled.div `
 export const CutBottom = styled.div `
   position : absolute;
   right : 11px;
-  bottom : 0;
+  top : 0;
   border-bottom: 11px solid transparent;
   border-left: 20px solid #DA7F15;
   width: 0;
@@ -65,9 +65,9 @@ export const CutTopRight = styled.div `
 export const CutTopLeft = styled.div `
   position : absolute;
   left : 154px;
-  bottom : 0;
+  top : 0;
   transform : rotate(90deg);
-  border-bottom: 15px solid transparent;
+  border-bottom: 20px solid transparent;
   border-left: 20px solid #DA7F15;
   width: 0;
 `;

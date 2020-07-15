@@ -12,9 +12,9 @@ const Home = () => {
 
   return (
     <MainLayout>
-      <GlobalStyle/>
       <Container>
         <LoginContainer/>
+        <GlobalStyle/>
       </Container>
     </MainLayout>
   );

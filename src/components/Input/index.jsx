@@ -7,7 +7,7 @@ export default (props) => {
   const [inputValue, setInputValue] = useState('');
   return (
     <ContainerInput
-      autoCorrect={false}
+      autoCorrect="false"
       placeholder={props.textInput}
       value={inputValue}
       className={inputValue === '' ? '' : 'active'}
