@@ -4,7 +4,7 @@ import Container from './styles';
 
 import MainLayout from 'layouts/main';
 import React from 'react';
-import LoginContainer from '../../components/LoginContainer';
+import LoginContainer from '../LoginContainer';
 import GlobalStyle from '../../styles/globalStyle';
 
 const Home = () => {
