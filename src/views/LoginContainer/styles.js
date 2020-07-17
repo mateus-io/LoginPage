@@ -95,7 +95,6 @@ export const InvalidCredentialsAlert = styled.div `
 
 export const TextAlert  = styled.p `
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
